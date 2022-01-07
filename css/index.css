@@ -1,35 +1,31 @@
-.site {
+.container {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    grid-template-rows: auto 1fr 3fr;
+    grid-gap: 3px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px auto 40px;
+    height: 100%;
+    grid-template-areas: 
+    "h h h h h h h h h h h h"
+    "m c c c c c c c c c c c"
+    "f f f f f f f f f f f f";
 }
 
-.page-title {
-    background: cyan;
-    grid-column: 1/4;
-    grid-row: 1/2;
-}
-
-.masterhead {
-    grid-column: 2/4;
-    grid-row: 2/3;
+.header {
+    grid-area: h;
     background: green;
 }
 
-.main-content {
-    grid-column: 1/2;
-    grid-row: 2/4;
-    background: darkgoldenrod;
+.menu {
+    grid-area: m;
+    background: blue;
 }
 
-.sidebar {
-    grid-column: 2/3;
-    grid-row: 3/4;
-    background: darkgray;
+.content{
+    grid-area: c;
+    background: gray;
 }
 
 .footer {
-    grid-column: 3/4;
-    grid-row: 3/4;
-    background: darkmagenta;
+    grid-area: f;
+    background: hotpink;
 }
