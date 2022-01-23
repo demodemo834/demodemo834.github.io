@@ -189,8 +189,8 @@ nav {
 .section__title--services::after {
     content: '';
     display: block;
-    width: 30%;
-    height: 1px;
+    width: 35%;
+    height: 3px;
     margin: 0.5em auto 1em;
     background: currentColor;
     opacity: 0.25;
@@ -203,6 +203,7 @@ nav {
 .service {
     max-width: 500px;
     margin: 0 auto;
+    margin-top: 4em;
 }
 
 @media (min-width: 800px) {
@@ -211,6 +212,10 @@ nav {
         max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .service {
+        margin-top: 0;
     }
 
     .service + .service {
