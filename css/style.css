@@ -138,8 +138,8 @@ nav {
 .intro__img {
     box-shadow: var(--bs);
     border-radius: 3em; 
-    outline: 5px solid rgba(212, 197, 197, 0.75);
-    outline-offset: -5px;
+    /* outline: 5px solid rgba(212, 197, 197, 0.75);
+    outline-offset: -5px; */
 }
 
 .section__subtitle--intro {
@@ -179,7 +179,7 @@ nav {
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(../img/whatido.jpg);
+    background-image: url(../img/whatido.png);
     background-size: cover;
     background-blend-mode: multiply;
     color: var(--clr-bg);
