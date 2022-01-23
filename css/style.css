@@ -178,7 +178,7 @@ nav {
 }
 
 .my-services {
-    background: var(--clr-dark);
+    background-color: var(--clr-dark);
     background-image: url(../img/whatido.jpg);
     background-size: cover;
     background-blend-mode: multiply;
