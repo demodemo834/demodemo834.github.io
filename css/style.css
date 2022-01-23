@@ -24,6 +24,7 @@
     --fs-body: 1rem;
 
     --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
+          0.125em 0.125em 0.25em rgba(0,0,0,.125),
           0.125em 0.125em 0.25em rgba(0,0,0,.125);
 }
 
@@ -136,10 +137,14 @@ nav {
 
 .intro__img {
     box-shadow: var(--bs);
+    border-radius: 3em; 
+    outline: 5px solid rgba(212, 197, 197, 0.75);
+    outline-offset: -5px;
 }
 
 .section__subtitle--intro {
     display: inline-block;
+    border-radius: 2em;
 }
 
 @media (min-width: 600px) {
@@ -168,7 +173,7 @@ nav {
         text-align: right;
         position: relative;
         left: -1.5em;
-        width: calc(100% + 1.5em);
+        width: calc(100% + 3em);
     }
 }
 
