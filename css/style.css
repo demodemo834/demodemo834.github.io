@@ -16,7 +16,7 @@
     --clr-bg: #fff;
     --clr-text: #303030;
     --clr-accent: #16e0bd;
-    --clr-grey: #555;
+    --clr-grey: rgb(54, 88, 71);
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -144,7 +144,7 @@ nav {
 
 .section__subtitle--intro {
     display: inline-block;
-    border-radius: 2em;
+    border-radius: 0.5em;
 }
 
 @media (min-width: 600px) {
